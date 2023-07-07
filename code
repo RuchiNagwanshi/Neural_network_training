@@ -1,0 +1,4 @@
+[x,t] =  bodyfat_dataset;  
+net = feedforwardnet(10);
+net = train(net,x,t);
+y = net(x);
